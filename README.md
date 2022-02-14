@@ -1,70 +1,76 @@
-# Getting Started with Create React App
+# Venturesque
+Planning a date or itinerary for your friends can be complicated and time consuming. With this app, you can instantly generate a date that has the highest rated activities and restaurants based on location and your preferences.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Demo
+https://www.jameshansungpark.com/Venturesque/
 
-## Available Scripts
+# App Features
+### Landing Page - Complete
+### Frontend Auth - Complete
+### Populate Weather Information into a component - Work In Progress
+### Show Restaurant & Activity Recommendations - Complete
+### Show More Slider - In Progress
+### Filter Options - Not Started
+### User Profile w/ Preferences & Saved Itineraries - Not Started
 
-In the project directory, you can run:
+# Dependencies & Version
+## Frontend
+* React.js 17.0.1
+* Redux.js 4.0.5
+* Node v10.13.0
+* node-sass v5.0.0
+* Heroku
+* hookrouter 1.2.5
+* use-react-router 1.0.7
+* yelp-fusion 3.0.0
+* react-router-dom 5.2.0
+* query-string 7.0.0
+* json-server 0.16.3
+* react-icons 4.2.0
+* firebase 9.0.1
+* tailwindcss 
+* bootstrap
+* react-boostrap
+## Backend
+* axios 0.21.1
+* concurrently 6.2.1
+* cors 2.8.5
+* dotenv 10.0.0
+* express 4.17.1
+* mongoose 5.12.6
+* requests 0.3.0
+* validator 13.6.0
 
-### `npm start`
+# Languages / Libraries
+* HTML
+* CSS
+* JavaScript
+* Axios
+* Express
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# APIs and External Libraries
+* Yelp - restaurant recommendations
+* FreeLogoDesign.org - logos and icons
+* Unsplash.com - site images
+* Accuweather - current weather forecasts
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Database creation
+- TBD
 
-### `npm test`
+# How to run the test suite
+- npm i @reduxjs/toolkit axios dotenv gh-pages node-sass react react-dom react-redux react-router-dom redux-logger yelp-fusion hookrouter
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Contributors
+* James Park (Full Stack Software Engineer): https://www.linkedin.com/in/jameshansungpark/
+* Vivian Chen (UX / UI Graphic Designer): https://www.linkedin.com/in/viv-chen/
+* Jung Park (Full Stack Software Engineer): https://github.com/junghyun2006/
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Tools / Libraries / Resource Documentation
+* React App Github Page Deployment Documentation: https://create-react-app.dev/docs/deployment/#github-pages-https-pagesgithubcom
+* Yelp API Documentation: https://www.yelp.com/developers/documentation/v3
+* AccuWeather API Documentation: https://developer.accuweather.com/apis
+* Google Fonts API: https://developers.google.com/fonts/docs/getting_started
+* Incorporating Node SASS to Create-React-App: https://scotch.io/starters/react/adding-sass-to-create-react-app-applications
+* CORS Anywhere: https://github.com/Rob--W/cors-anywhere
+* React Router: https://reactrouter.com/web/guides/quick-start
+* Use React Router: https://www.npmjs.com/package/use-react-router
